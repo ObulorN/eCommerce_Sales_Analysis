@@ -1,0 +1,116 @@
+html {
+  font-size: 14px;
+  margin-left: 16px;
+    margin-right: 16px;
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    
+}
+.headerDesktop {
+    height: 220px;
+    background: linear-gradient(0deg, rgba(25, 93, 131, 0.8), rgba(25, 93, 131, 0.8)), url('/Resources/sql_excel.png' );
+    /* background-image: url('/images/header.jpg' );*/
+    background-repeat: no-repeat;
+  padding-top: 20px;
+}
+.headerMobile {
+    height: 190px;
+    background: linear-gradient(0deg, rgba(25, 93, 131, 0.8), rgba(25, 93, 131, 0.8)), url('/Resources/sql_excel.png' );
+    /* background-image: url('/images/header.jpg' );*/
+    background-repeat: no-repeat;
+  padding-top: 20px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #004B76;
+    width: 100%;
+    
+}
+.txtWhiteheader {
+    color: white;
+    font-family: " Verdana, Tahoma, Geneva,, sans-serif ";
+    font-size: 1.5vw;
+    margin-left: 4px;
+    align-content:center;
+}
+
+.txtWhiteheaderMobile {
+  color: white;
+  font-family: " Verdana, Tahoma, Geneva,, sans-serif ";
+  font-size: 3vw;
+  margin-left: 4px;
+  align-content:center;
+}
+.primaryColor{
+    background-color: #195d83;
+    width:120px;
+}
+.bgCollapse {
+    background-color: #195d83;
+}
+.textColor{
+    color:white;
+}
+
+
+.circleheaderMobile {
+    height: 120px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 4px;
+    cursor: pointer;
+    background-color: white;
+    padding-top: 3px;
+}
+
+
+.circleheaderDesktop {
+
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 100%;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    margin:4px;
+    cursor: pointer;
+    padding-top: 3px;
+    background-color:white;
+}
+
+
+.centerdiv {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top:1%;
+}
+.containerBG{
+    background-color:#f2f2f2;
+}
+
+
+
